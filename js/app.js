@@ -4,10 +4,7 @@ const button = document.querySelector('.button')
 const body = document.querySelector('body')
 const title = document.querySelector('.ChangeColor')
 
-//colors length = 148
-
 button.addEventListener('click', getColor)
-
 
 function getColor() {
     const randomColor = Math.round(Math.random() * 147)
